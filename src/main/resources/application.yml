@@ -1,0 +1,11 @@
+server:
+  port: 8765
+
+spring:
+  application:
+    name: webflux
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: iotbus_mysql_root
+    url: jdbc:mysql://host:3306/db?characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&autoReconnect=true
